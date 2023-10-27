@@ -1,0 +1,15 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+/* barvy:
+#FAFAFA pozadí stránky 
+#000000 nadpisy obou úrovní
+#8B8B8B texty, tlačítko, orámování stránky
+#FFFFFF pozadí ikonek, text tlačítek
+#407BFF1F ikonky, tlačítko, čáry oddělující
+#407BFF asi stín za prvkem s ikonou?
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
