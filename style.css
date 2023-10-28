@@ -41,7 +41,7 @@ h2 {
 
 p {
     color: #8B8B8B;
-    margin: 0px 20px 15px;
+    margin-bottom: 15px;
     font-weight: 300;
 }
 
@@ -81,16 +81,47 @@ section {
     margin-top: 10px;
 }
 
+.icons{
+    width: 100%;
+}
 .box-offer {
     box-shadow: 0 4px 6px #407BFF1F;
     margin-top: 15px;
-    border: 1px solid black;
     padding: 20px;
     display: flex;
     align-items: center;
+    gap: 30px;
+    border-radius: 5px;
 }
 
 .box-offer p {
     padding-top: 15px;
+    font-size: 13px;
 }
 
+@media screen and (min-width: 640px) {
+    h1 {
+        margin-top: 30px;
+    }
+
+    h2 {
+        margin-top: 80px;
+    }
+
+    .buttons {
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .icons {
+        display: flex;
+        gap: 20px;
+        justify-content: space-evenly;
+    }
+
+    .box-offer {
+        flex: 0 0 calc((100% - 100px)/3);
+    }
+
+}
