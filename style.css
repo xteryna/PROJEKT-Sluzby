@@ -12,4 +12,85 @@ html { box-sizing: border-box; }
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 60px 20px;
+    text-align: center;
+    font-size: 16px;
 }
+
+h1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 40px auto 0;
+}
+
+.line {
+    background-color: #407BFF;
+    border: 0;
+    width: 60px;
+    height: 2px;
+    margin: 10px auto 30px;
+
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #8B8B8B;
+    margin: 0px 20px 15px;
+    font-weight: 300;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.traveller {
+    width: 70%;
+}
+
+.blue {
+    background-color: #407BFF;    
+}
+
+.grey {
+    background-color: #8B8B8B;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    padding: 10px 30px;
+    border-radius: 20px;
+    width: fit-content;
+    margin-top: 10px;
+}
+
+.box-offer {
+    box-shadow: 0 4px 6px #407BFF1F;
+    margin-top: 15px;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.box-offer p {
+    padding-top: 15px;
+}
+
