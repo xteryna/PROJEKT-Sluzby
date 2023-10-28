@@ -20,16 +20,16 @@ body {
 h1 {
     font-size: 28px;
     font-weight: 500;
-    margin: 40px auto 0;
+    margin: 40px auto;
 }
 
-.line {
-    background-color: #407BFF;
-    border: 0;
+h1::after {
+    content: "";
+    display: block;
     width: 60px;
     height: 2px;
-    margin: 10px auto 30px;
-
+    background-color: #407BFF;
+    margin: 10px auto
 }
 
 h2 {
@@ -121,7 +121,6 @@ section {
         display: flex;
         gap: 20px;
         justify-content:center
-        /* justify-content: space-between; */
     }
 
     .box-offer {
@@ -169,6 +168,10 @@ section {
     .head .text {
         flex: 0 0 490px;
     }
+
+    .buttons {
+        justify-content: flex-start;
+    }
     
     .text {
         margin: 0;
@@ -177,6 +180,7 @@ section {
     .box-offer {
         margin: 0;
         padding-bottom: 40px;
+        flex-grow: 1;
     }
 
     .offer {
@@ -191,6 +195,18 @@ section {
     }
 
     .offer.icons {
-        flex: 0 0 550px
+        flex: 0 0 550px;
+        justify-content: flex-start;
     }
+
+    h1, h2,
+    .text p {
+        text-align: left;
+    }
+
+    h1::after {
+        margin-left: 0;
+    }
+
+   
 }
